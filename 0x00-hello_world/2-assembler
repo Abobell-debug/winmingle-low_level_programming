@@ -1,0 +1,7 @@
+/**
+ * Author: Abdulahi Bello
+ * Program: WinMingle Community C Training
+ * Description: A script that generates the assembly code
+*/
+#!/bin/bash
+gcc -S $CFILE
