@@ -1,0 +1,8 @@
+#!/bin/bash
+ /**
+ * Author: Abdulahi Abiodun Bello
+ * Program: WinMingle Community C Training
+ * Description: A script that runs a C file through the preprocessor
+ */
+
+gcc -E $CFILE -o c

@@ -1,0 +1,7 @@
+ /**
+ * Author: Your Full Name
+ * Program: WinMingle Community C Training
+ * Description: Brief explanation of this file
+ */
+#!/bin/bash
+gcc -c $CFILE
