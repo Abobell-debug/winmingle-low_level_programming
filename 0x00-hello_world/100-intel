@@ -1,0 +1,7 @@
+ /**
+ * Author: Abdulahi Bello
+ * Program: WinMingle Community C Training
+ * Description: script that generates the assembly code (Intel syntax) of a C code and saves it to an output file.
+ */
+#!/bin/bash
+gcc -S -masm=intel %CFILE -o ${CFILE//'.c'/'.s'}
