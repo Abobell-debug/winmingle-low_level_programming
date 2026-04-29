@@ -1,0 +1,7 @@
+ /**
+ * Author: Abdulahi Bello
+ * Program: WinMingle Community C Training
+ * Description: A script that compiles a C file and creates an executable named cisfun 
+ */
+#!/bin/bash
+gcc $CFILE -o cisfun
