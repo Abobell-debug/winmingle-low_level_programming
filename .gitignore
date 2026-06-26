@@ -45,3 +45,35 @@
 0x03-debugging/2-main.c
 0x03-debugging/3-main_b.c
 
+# --- JUNK FILE RULES ---
+
+# 1. Ignore ALL files that end in .o or .s (System garbage)
+**/*.o
+**/*.s
+
+# 2. Ignore ALL a.out files
+**/a.out
+
+# 3. Ignore ALL Betty temporary/save files
+**/*~
+**/#*#
+**/main.h.gch
+
+# 4. Ignore Task Test Files (Professional Move)
+# Since they all follow the format [number]-main.c
+**/[0-9]*-main.c
+
+# 5. Ignore Specific Executables for 0x04
+0x04-more_functions_nested_loops/0-isupper
+0x04-more_functions_nested_loops/1-isdigit
+0x04-more_functions_nested_loops/2-mul
+0x04-more_functions_nested_loops/3-print_numbers
+0x04-more_functions_nested_loops/4-print_most_numbers
+0x04-more_functions_nested_loops/5-more_numbers
+0x04-more_functions_nested_loops/6-print_line
+0x04-more_functions_nested_loops/7-print_diagonal
+0x04-more_functions_nested_loops/8-print_square
+0x04-more_functions_nested_loops/9-fizz_buzz
+0x04-more_functions_nested_loops/10-print_triangle
+0x04-more_functions_nested_loops/100-prime_factor
+0x04-more_functions_nested_loops/101-print_number
